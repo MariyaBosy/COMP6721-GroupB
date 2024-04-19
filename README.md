@@ -1,5 +1,10 @@
 # COMP6721-GroupB: Leaf Disease Classification
 
+## Link to the GitHub Page of the Project: 
+https://github.com/MariyaBosy/COMP6721-GroupB.git
+
+## Link to the Video: 
+
 ## Overview
 
 This project focuses on developing and training deep learning models for plant and leaf disease classification using Convolutional Neural Networks (CNNs) like MobileNet, ResNet, and VGG. These models are trained on various datasets to identify and classify diseases in plants and leaves, contributing significantly to agricultural health practices.
