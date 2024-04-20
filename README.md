@@ -7,19 +7,19 @@ https://github.com/MariyaBosy/COMP6721-GroupB.git
 
 ## Overview
 
-This project focuses on developing and training deep learning models for plant and leaf disease classification using Convolutional Neural Networks (CNNs) like MobileNet, ResNet, and VGG. These models are trained on various datasets to identify and classify diseases in plants and leaves, contributing significantly to agricultural health practices.
+This project focuses on developing and training deep learning models for plant and leaf disease classification using Convolutional Neural Networks (CNNs) like MobileNetV2, ResNet18, and VGG19. These models are trained on various datasets to identify and classify diseases in plants and leaves, contributing significantly to agricultural health practices.
 
 ### Files in the Project
 
-- `MobileNet_Mendeley.ipynb`: MobileNet model trained on the Mendeley dataset.
-- `MobileNet_PlantVillage.ipynb`: MobileNet model trained on the PlantVillage dataset.
-- `MobileNet_Rice_Leaf.ipynb`: MobileNet model trained on the Rice Leaf dataset.
-- `ResNet_CCMT.ipynb`: ResNet model trained on a custom dataset.
-- `ResNet_PlantVillage.ipynb`: ResNet model trained on the PlantVillage dataset.
-- `ResNet_Rice_Leaf.ipynb`: ResNet model trained on the Rice Leaf dataset.
-- `VGG_Mendeley.ipynb`: VGG model trained on the Mendeley dataset.
-- `VGG_PlantVillage.ipynb`: VGG model trained on the PlantVillage dataset.
-- `VGG_Rice_Leaf.ipynb`: VGG model trained on the Rice Leaf dataset.
+- `MobileNet_Mendeley.ipynb`: MobileNetV2 model trained on the Mendeley dataset.
+- `MobileNet_PlantVillage.ipynb`: MobileNetV2 model trained on the PlantVillage dataset.
+- `MobileNet_Rice_Leaf.ipynb`: MobileNetV2 model trained on the Rice Leaf dataset.
+- `ResNet_CCMT.ipynb`: ResNet18 model trained on a custom dataset.
+- `ResNet_PlantVillage.ipynb`: ResNet18 model trained on the PlantVillage dataset.
+- `ResNet_Rice_Leaf.ipynb`: ResNet18 model trained on the Rice Leaf dataset.
+- `VGG_Mendeley.ipynb`: VGG19 model trained on the Mendeley dataset.
+- `VGG_PlantVillage.ipynb`: VGG19 model trained on the PlantVillage dataset.
+- `VGG_Rice_Leaf.ipynb`: VGG19 model trained on the Rice Leaf dataset.
 
 ## Requirements
 
@@ -36,16 +36,22 @@ This project focuses on developing and training deep learning models for plant a
 
 2. **Set Up Your Environment**:
    - Ensure Python 3.x is installed on your system.
-   - Install PyTorch and other required libraries using `pip`:
-     ```
-     pip install torch torchvision numpy matplotlib pillow
-     ```
+   - Installing Dependencies: To set up your environment with the necessary libraries, use the following command in your terminal or command prompt:
+   ```
+   pip install -r requirements.txt
+   ```
 
 3. **Obtain the Datasets**:
    - Download the datasets from the provided links :
-        PlantVillage Dataset: https://github.com/spMohanty/PlantVillage-Dataset
-        Mendeley Dataset 1 (Crop Pest and Disease Detection): https://data.mendeley.com/datasets/bwh3zbpkpv/1
-        Mendeley Dataset 2 (Rice Leaf Disease Detection): https://data.mendeley.com/datasets/fwcj7stb8r/1
+   
+        1. PlantVillage Dataset: 
+        https://github.com/spMohanty/PlantVillage-Dataset
+
+        2. Mendeley Dataset 1 (Crop Pest and Disease Detection): 
+        https://data.mendeley.com/datasets/bwh3zbpkpv/1
+
+        3. Mendeley Dataset 2 (Rice Leaf Disease Detection): 
+        https://data.mendeley.com/datasets/fwcj7stb8r/1
 
    - Ensure the datasets are structured appropriately as expected by the notebook scripts.
 
@@ -83,4 +89,4 @@ To obtain the datasets, follow these steps:
 After downloading, extract the ZIP files and follow the specific instructions in the provided notebooks to use these datasets for training and evaluating the models.
 
 
-By following these instructions, users can train, validate, and run pre-trained models for plant and leaf disease classification across different datasets using CNN architectures like MobileNet, ResNet, and VGG.
+By following these instructions, users can train, validate, and run pre-trained models for plant and leaf disease classification across different datasets using CNN architectures like MobileNetV2, ResNet18, and VGG19.
