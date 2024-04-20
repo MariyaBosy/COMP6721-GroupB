@@ -5,6 +5,7 @@ https://github.com/MariyaBosy/COMP6721-GroupB.git
 
 ## Link to the Video: 
 
+
 ## Overview
 
 This project focuses on developing and training deep learning models for plant and leaf disease classification using Convolutional Neural Networks (CNNs) like MobileNetV2, ResNet18, and VGG19. These models are trained on various datasets to identify and classify diseases in plants and leaves, contributing significantly to agricultural health practices.
@@ -14,12 +15,18 @@ This project focuses on developing and training deep learning models for plant a
 - `MobileNet_Mendeley.ipynb`: MobileNetV2 model trained on the Mendeley dataset.
 - `MobileNet_PlantVillage.ipynb`: MobileNetV2 model trained on the PlantVillage dataset.
 - `MobileNet_Rice_Leaf.ipynb`: MobileNetV2 model trained on the Rice Leaf dataset.
-- `ResNet_CCMT.ipynb`: ResNet18 model trained on a custom dataset.
+- `MobileNet_Rice_Leaf_hyperparameter_tuning.ipynb`: Hyperparameter tuning of the MobileNetV2 model for the Rice Leaf dataset.
+- `model_VGG_Rice.ckpt`: Checkpoint file for the VGG19 model's state trained on the Rice Leaf dataset.
+- `ResNet_Mendeley.ipynb`: ResNet18 model trained on the Mendeley dataset.
 - `ResNet_PlantVillage.ipynb`: ResNet18 model trained on the PlantVillage dataset.
 - `ResNet_Rice_Leaf.ipynb`: ResNet18 model trained on the Rice Leaf dataset.
+- `Transfer_MobileNet_PlantVillage.ipynb`: Application of transfer learning using MobileNetV2 on the PlantVillage dataset.
+- `Transfer_VGG_Mendeley.ipynb`: Application of transfer learning using VGG19 on the Mendeley dataset.
 - `VGG_Mendeley.ipynb`: VGG19 model trained on the Mendeley dataset.
-- `VGG_PlantVillage.ipynb`: VGG19 model trained on the PlantVillage dataset.
+- `VGG_Mendeley_hyperparameter_tuning_LR.ipynb`: Hyperparameter tuning for learning rate of the VGG19 model on the Mendeley dataset.
+- `Vgg_PlantVillage.ipynb`: VGG19 model trained on the PlantVillage dataset.
 - `VGG_Rice_Leaf.ipynb`: VGG19 model trained on the Rice Leaf dataset.
+
 
 ## Requirements
 
@@ -43,7 +50,7 @@ This project focuses on developing and training deep learning models for plant a
 
 3. **Obtain the Datasets**:
    - Download the datasets from the provided links :
-   
+
         1. PlantVillage Dataset: 
         https://github.com/spMohanty/PlantVillage-Dataset
 
