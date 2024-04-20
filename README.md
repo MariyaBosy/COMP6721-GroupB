@@ -54,10 +54,10 @@ This project focuses on developing and training deep learning models for plant a
         1. PlantVillage Dataset: 
         https://github.com/spMohanty/PlantVillage-Dataset
 
-        2. Mendeley Dataset 1 (Crop Pest and Disease Detection): 
+        2. Mendeley Dataset: 
         https://data.mendeley.com/datasets/bwh3zbpkpv/1
 
-        3. Mendeley Dataset 2 (Rice Leaf Disease Detection): 
+        3. Rice Leaf Disease Detection: 
         https://data.mendeley.com/datasets/fwcj7stb8r/1
 
    - Ensure the datasets are structured appropriately as expected by the notebook scripts.
