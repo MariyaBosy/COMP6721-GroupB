@@ -16,16 +16,15 @@ This project focuses on developing and training deep learning models for plant a
 - `MobileNet_PlantVillage.ipynb`: MobileNetV2 model trained on the PlantVillage dataset.
 - `MobileNet_Rice_Leaf.ipynb`: MobileNetV2 model trained on the Rice Leaf dataset.
 - `MobileNet_Rice_Leaf_hyperparameter_tuning.ipynb`: Hyperparameter tuning of the MobileNetV2 model for the Rice Leaf dataset.
-- `model_VGG_Rice.ckpt`: Checkpoint file for the VGG19 model's state trained on the Rice Leaf dataset.
 - `ResNet_Mendeley.ipynb`: ResNet18 model trained on the Mendeley dataset.
 - `ResNet_PlantVillage.ipynb`: ResNet18 model trained on the PlantVillage dataset.
 - `ResNet_Rice_Leaf.ipynb`: ResNet18 model trained on the Rice Leaf dataset.
 - `Transfer_MobileNet_PlantVillage.ipynb`: Application of transfer learning using MobileNetV2 on the PlantVillage dataset.
-- `Transfer_VGG_Mendeley.ipynb`: Application of transfer learning using VGG19 on the Mendeley dataset.
+- `Transfer_VGG_Mendely.ipynb`: Application of transfer learning using VGG19 on the Mendeley dataset.
 - `VGG_Mendeley.ipynb`: VGG19 model trained on the Mendeley dataset.
-- `VGG_Mendeley_hyperparameter_tuning_LR.ipynb`: Hyperparameter tuning for learning rate of the VGG19 model on the Mendeley dataset.
+- `VGG_Mendely_hyperparameter_tuning_LR.ipynb`: Hyperparameter tuning for learning rate of the VGG19 model on the Mendeley dataset.
 - `Vgg_PlantVillage.ipynb`: VGG19 model trained on the PlantVillage dataset.
-- `VGG_Rice_Leaf.ipynb`: VGG19 model trained on the Rice Leaf dataset.
+- `VGG_RiceLeaf.ipynb`: VGG19 model trained on the Rice Leaf dataset.
 
 
 ## Requirements
