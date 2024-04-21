@@ -4,7 +4,7 @@
 https://github.com/MariyaBosy/COMP6721-GroupB.git
 
 ## Link to the Video: 
-
+https://drive.google.com/file/d/1xEzKEZIys2M_z0cB_F_dYJIijLD5V--2/view?usp=sharing
 
 ## Overview
 
